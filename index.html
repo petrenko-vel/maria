@@ -58,11 +58,11 @@
                             4 занятия
                         </span>
                         <div class="row-servis__group-class">
-                            <div class="row-servis-item">
+                            <div class="row-servis__item">
                                 <span class="class">5-8 класс</span>
                                 <span class="cost">1 000₽</span>
                             </div>
-                            <div class="row-servis-item">
+                            <div class="row-servis__item">
                                 <span class="class">9 класс</span>
                                 <span class="cost">1 500₽</span>
                             </div>
@@ -80,11 +80,11 @@
                             4 занятия
                         </span>
                         <div class="row-servis__group-class">
-                            <div class="row-servis-item">
+                            <div class="row-servis__item">
                                 <span class="class">5-8 класс</span>
                                 <span class="cost">3 600₽</span>
                             </div>
-                            <div class="row-servis-item">
+                            <div class="row-servis__item">
                                 <span class="class">9 класс</span>
                                 <span class="cost">5 400₽</span>
                             </div>
@@ -103,11 +103,11 @@
                             6 занятий
                         </span>
                         <div class="row-servis__group-class">
-                            <div class="row-servis-item">
+                            <div class="row-servis__item">
                                 <span class="class">5-8 класс</span>
                                 <span class="cost">5 100 ₽</span>
                             </div>
-                            <div class="row-servis-item">
+                            <div class="row-servis__item">
                                 <span class="class">9 класс</span>
                                 <span class="cost">7 650₽</span>
                             </div>
@@ -124,11 +124,11 @@
                             10 занятий
                         </span>
                         <div class="row-servis__group-class">
-                            <div class="row-servis-item">
+                            <div class="row-servis__item">
                                 <span class="class">5-8 класс</span>
                                 <span class="cost">8 000₽</span>
                             </div>
-                            <div class="row-servis-item">
+                            <div class="row-servis__item">
                                 <span class="class">9 класс</span>
                                 <span class="cost">12 000₽</span>
                             </div>
@@ -137,23 +137,27 @@
                 </div>
                 <div class="servise__colms colms-servis">
                     <div class="colms-servis__block">
-                        <span class="colms-servis__title">
-                            Курс «ОГЭ на 5+»
-                        </span>
-                        <span class="colms-servis__about">
-                            мини группа (до 5 человек)
-                        </span>
+                        <div class="colms-servis__group">
+                            <span class="colms-servis__title">
+                                Курс «ОГЭ на 5+»
+                            </span>
+                            <span class="colms-servis__about">
+                                мини группа (до 5 человек)
+                            </span>
+                        </div>
                         <span class="colms-servis__cost">
                             4 900₽ / мес
                         </span>
                     </div>
                     <div class="colms-servis__block right">
-                        <span class="colms-servis__title">
-                            Урок по литературе
-                        </span>
-                        <span class="colms-servis__about">
-                            индивидуально
-                        </span>
+                        <div class="colms-servis__group">
+                            <span class="colms-servis__title">
+                                Урок по литературе
+                            </span>
+                            <span class="colms-servis__about">
+                                индивидуально
+                            </span>
+                        </div>
                         <span class="colms-servis__cost">
                             1 000₽
                         </span>
@@ -164,17 +168,21 @@
                         <span class="colms-servis__title">
                             Психологическая консультация
                         </span>
-                        <span class="colms-servis__cost">
+                        <span class="colms-servis__cost" style="width: 20%; text-align: right;">
                             1 500₽
                         </span>
                     </div>
-                    <div class="colms-servis__block right">
-                        <div class="row-servis__lable">
-                            <span>новинка</span>
+                    <div class="colms-servis__block right" style="align-items: flex-end;">
+                        <div class="colms-servis__group">
+                            <!-- вы можеже убрать нижний блок(div) -->
+                            <div class="row-servis__lable">
+                                <span>новинка</span>
+                            </div>
+
+                            <span class="colms-servis__title">
+                                книжный клуб
+                            </span>
                         </div>
-                        <span class="colms-servis__title">
-                            книжный клуб
-                        </span>
                         <span class="colms-servis__cost">
                             500₽ / мес
                         </span>
@@ -355,7 +363,9 @@
                 <div class="footer__image">
                     <img src="img/footer-image.jpg" alt="">
                 </div>
-                <span>Ссылки</span>
+                <div class="footer__span">
+                    <span>Ссылки</span>
+                </div>
             </div>
             <div class="footer__body">
                 <div class="footer__block-social">
